@@ -42,4 +42,21 @@ print("natija2:", natija2)
 # natija2: Hi Jastin
 
 
-print("============= Parametr vs Argument ==============")
+print("=============  Keyword & default arguments  ==============")
+
+
+# DEFINE
+def give_greet(name, age=28):
+    print("give_greet is executed")
+    return f"Hi {name}, you are {age} years old!"
+
+
+# CALL
+# biz shu yerda  Keyword dan foydalanishmiz mumkin boladi "Jack",24 bu holatda bir xil ishlaydi farqi bizni codemizni korgan odam yaxshi tushunadi
+natija3 = give_greet(name="Jack", age=24)
+print("natija3:", natija3)
+
+# DEFAULT argument
+# bu yerda age=28yoshni yozmasak default holatda tepadan oladi
+natija4 = give_greet("John")
+print("natija4:", natija4)
