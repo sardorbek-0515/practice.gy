@@ -28,7 +28,6 @@ def greeting(b):  # greeting() esa qiymat qaytaradi.
     print("greeeting is executed")  # bunda birinchi chiqadi kn
     return f"Hi {b}"  # kn return orqali qiymat qaytaradi
 
-
   # Call - execute -chaqirish
 natija1 = greet('Jack')  # void function
 print("natija1:",  natija1)
@@ -60,3 +59,16 @@ print("natija3:", natija3)
 # bu yerda age=28yoshni yozmasak default holatda tepadan oladi
 natija4 = give_greet("John")
 print("natija4:", natija4)
+
+
+print("============= Scope  ==============")
+b = 100  # 3 tashqaridan izlaydi
+
+
+# DEFINE
+def calculate(a):  # 2 prametr tashqaridan izlaydi
+    c = a * b  # 1 ichkaridan izlaydi
+    print(f"the c value: {c}")  # format string
+
+    # Call
+calculate(5)
