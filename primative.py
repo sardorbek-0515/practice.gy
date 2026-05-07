@@ -34,3 +34,24 @@ print(f"the result (4): {result}")
 
 
 print("========= boolean ========")
+# function > type() input()  boll() int() str()
+y = input("Give your value for y: ")  # qiymatni kiriting
+print("y:", y)
+
+result = y.isnumeric()
+print(f"the input vale is numeric: {result}")
+
+
+# TRUTHY vs FALSY value lari
+# TRUTHY > True
+# TRUTHY qiymatlar bu true, hamda sonlar 0 dan tashqari, stringlar TRUTHY qiymatlarni tashkil etdi
+test_truthy = "MIT"
+print("test_truthy:", bool(test_truthy))
+
+
+# FALSY > FALSE
+# FALSY qiymatilari False ni uzi 0 qiymat, bosh string(""), None lar FALSY qiymatlarni tashkil etdi
+
+# shu yerda 100ni truthy qiymatlaridan birini kirtsak true boladi
+test_falsy = "" or False or None or 0
+print("test_falsy", bool(test_falsy))  # The FALSY: False

@@ -1,9 +1,10 @@
 # Dunder __builtins__, __init__
+
 # Objectlar ozing bir qator propertylariga (method,state) ega bolgan maxsus datadabe
 # PYTHONDA hamma narsa object number, string,"boolean-bool(true, false)"
-# int -> butun son
+# int -> butun son  stringni intigerga aylantirib beradi
 # float -> kasr son (3.14)
-# str -> matn
+# str -> matn  intigerni stringa aylantirib beradi
 # bool ->ture vs false
 
 message = "Python: HAR DOIM OBJECT!"
