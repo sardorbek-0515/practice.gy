@@ -1,4 +1,4 @@
-# Dunder __builtins__, __init__
+# Dunder __builtins__, __init__    pythoni ichki qurilish mehanizmi
 
 # Objectlar ozing bir qator propertylariga (method,state) ega bolgan maxsus datadabe
 # PYTHONDA hamma narsa object number, string,"boolean-bool(true, false)"

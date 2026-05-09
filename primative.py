@@ -2,11 +2,11 @@ print("=========NUMBER=======")
 # in JAVA veriable is a name storage location!
 # JAVA vs S languechlarida malumot manzilini nomlanishi
 # in Python,veriable is named referanse!
-# pythonda hamma narsa object ,/veriable reference ni nomlanishi xolos
+# pythonda hamma narsa object ,/veriable reference ni nomlanishi xolos reference  storage location ga qaratilgan hissoblanadi!
 
 count = 100
 count_type = type(count)
-# print("count:", count, count_type
+# print("count:", count, count_type)
 # format string codlarni qisqartirib bir qator qilib beradi
 print(f"the count: {count} and type: {count_type}")
 
@@ -38,7 +38,7 @@ print("========= boolean ========")
 y = input("Give your value for y: ")  # qiymatni kiriting
 print("y:", y)
 
-result = y.isnumeric()
+result = y.isnumeric()    # son kiritildimi
 print(f"the input vale is numeric: {result}")
 
 
