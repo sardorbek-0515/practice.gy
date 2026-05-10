@@ -4,6 +4,12 @@
     (3) DICTIONARY
     (4) Error handing system
 '''
+# Objectlar ozing bir qator propertylariga (method,state) ega bolgan maxsus datadabe
+# PYTHONDA hamma narsa object number, string,"boolean-bool(true, false)"
+# int -> butun son  stringni intigerga aylantirib beradi
+# float -> kasr son (3.14)
+# str -> matn  intigerni stringa aylantirib beradi
+# bool ->ture vs false
 
 # packagelar/module
 import array  # import  qilish kerag boladi bular python bn yonmayon umr koradi
