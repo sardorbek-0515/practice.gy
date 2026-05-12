@@ -42,6 +42,9 @@ class Dog(Animal):
     def protect(self):
         print(" Ha: men sizni himaya qila olaman!")
 
+    def make_vois(self):
+        print(f"the {self.name} says {self.sound}")  # POLIMORPHISH
+
 
 class Cat(Animal):
     # state
@@ -98,3 +101,25 @@ print(Dog.description)  # child orqali
 print(dog.voice, fish.voice)  # birga chaqirish
 print("dog.status:", dog.status)
 print("cat.status:", cat.status)
+
+
+print("======================== POLIMORPHISH < =============================")
+#  POLIMORPHISH  bir hil methodning turli xil shakllari bolishi mumkin
+dog.make_vois()
+fish.make_vois()
+
+print("--------------")  # biron obj qaysidir classni instins ligini bilish un
+# fish > Fish > Animal > object + (isinstance)
+# fish > Fish (class) = isinstance hissoblanadi
+# fish > Animal (class) = isinstance hissoblanadi
+a = isinstance(fish, Fish)
+b = isinstance(fish, Animal)
+c = isinstance(fish, object)
+d = isinstance("Mit", object)
+result = a and b and c and d
+print(f"natija: {result}")
+
+# Fish > Animal > object
+data1 = issubclass(Fish, Animal)
+data2 = issubclass(Animal, object)
+print("data:", data1, data2)
