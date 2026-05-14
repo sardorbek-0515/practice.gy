@@ -29,7 +29,7 @@ print(type(math))
 # Class bu shablon obectni hosil qilishda ishlatiladigan shablon
 # bular hammasi classdan olingan instnlar hissoblanadi va hammasi object hissoblanadi
 
-
+# PARADIGMA BU USLUBIYAT DEGANI => eng mashhurlari OBJECT-ORIENTED PROGRAMMING (OOP > OBYEQTLARGA ASOSLANGAN DASTURLASH)
 # Paradign > Function Programming  chiziqli paradigma deb ham ataladi verbl hamda func dan iborat dasturlash hissoblanadi
 # & OOP  / obectlarga asoslangan  dasturlash va 4 conceptga ega hamma tilda uchraydi
 # OOP 4 CONCEPT > Abstraction | Encapsulation | Inheritence | Polimorphism
