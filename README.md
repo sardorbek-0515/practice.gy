@@ -31,7 +31,7 @@ git pull origin master
 - List
 - Array
 - Comprehension
-- Debugging
+-
 - ....
 
 ## PYTHONda xammanarsa OBJECT bo'ladi
