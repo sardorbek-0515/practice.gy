@@ -8,7 +8,7 @@ print("========= (1) What is tuple: typle vs list =======")
 # Java/PHP/NodeJS array => Python list
 # LIST 2 XIL USULDA QURILADI
 
-# literal
+# literal / togridan togri yozish
 numbs = [3, 5, 1, 2]
 
 
@@ -18,7 +18,7 @@ letters = list("Hello World")
 fruits = ["Apple", "Lemmon", "banana", "kiwi"]
 print("before fruits:", fruits)
 
-fruits[2] = "melon"  # ozgartirish
+fruits[2] = "melon"                # ozgartirish
 print("after fruits:", fruits)
 
 
@@ -33,7 +33,7 @@ print(animals[0])
 people = "Andrew", "John"
 animals = "dog",
 
-print("==== (2) Unpacking arguments =====")
+print("======== (2) Unpacking arguments ===========================================")
 groups = ["MIT", "FLEX", "DEVEX", "MG"]
 (x, y, *z) = groups
 print(f"the x: {x} and y: {y}")
@@ -81,6 +81,7 @@ greeting("hi", True, 10, name="John", age=22)
 
 
 print("========= (3) ZIP  =======")  # Iterable object zip
+# ➡️ zip ikki iterable ni juft-juft qilib birlashtiradi, lekin hali ko'rinmaydi
 tuple1 = (1, 2, 3, 4)
 tuple2 = ('a', 'b', 'c')
 
@@ -88,3 +89,8 @@ zipped = zip(tuple1, tuple2)
 print("zipped:", zipped)
 resilt = list(zipped)
 print(f"the result: {resilt}")
+
+# tuple()   Ma'lumot o'zgarmasligi kerak bo'lganda
+# *args     Nechta argument kelishini bilmaganda(tuple)
+# **kwargs  kalit=qiymat argumentlar uchun (dict)
+# zip Ikki  ro'yxatni juft-juft birlashtirish kerak bo'lganda
