@@ -1,5 +1,5 @@
 '''   LOOP operators
-      (1) for 
+      (1) for   #{ketmaketlik aniq boladi}
       (2) break/else
       (3)while #shartga qarab ishlaydi
 '''
