@@ -1,13 +1,13 @@
 ''' Array & Set 
-    (1) Array
-    (2) Set
-    (3) Specific operators with set
+    (1) Array     katta hajm sonlar un 10 mimg 
+    (2) Set    takrorlanmas shatylari muhim ahamiyatyga ega bolgan
+    (3) Specific operators with set  O"ta maxsus hollarda
 '''
 
 from array import array
 print("=====================  (1) Array ================================")
 
-# Bu arraylarni ota masusu xollarda ishlatiladi,katta hajm sonlar un
+# Bu arraylarni ota masusu xollarda ishlatiladi,katta hajm sonlar un 10 mimg dam ortiq sonlar bn amaliyot
 numbers = array("i", (1, 4, 5, 7, 8, 41))  # katta hajm sonlar un
 print("numbers(1):", numbers)
 
@@ -23,3 +23,41 @@ print("numbers(2):", numbers)
 
 del numbers[0:2]
 print("numbers(4):", numbers)
+
+
+print("=====================  (2) Set ================================")
+# {set} of unique collection without keeping order / Faqat 1 marta natija qabbul qiladi
+# “Tartibsiz, takrorlanmaydigan elementlar to‘plami.”
+mevalar = {"olma", "nok", "uzum", "olma"}
+print(mevalar)
+# natija:{"olma", "nok", "uzum"} olma 2 yozilgan 1tasini oladi
+
+new_numbers = array("i", (1, 7, 4, 5, 7, 5, 8, 5, 41))
+numbs_set = set(new_numbers)
+
+print(f"numbs_set:,{numbs_set} and type: {type(numbs_set)}")
+
+numbs_set.add(200)
+print("numbs_set(1):", numbs_set)
+
+
+numbs_set.add(7)
+print("numbs_set(2):", numbs_set)
+
+
+print("===================== (3) Specific operators with set  ================================")
+# O'ta malum bir ota maxsusu keyslarda ishlatamiz maxsus
+# |  &  -  ^
+
+a = {10, 20, 50}
+b = {20, 40}
+
+result1 = a | b  # union alohida setga birlashtirib beradi
+result2 = a & b  # intersection A VS b ichida bolgan bir xil qiymat hosil qildi
+result3 = a - b  # DIFFERENCE
+result4 = a ^ b  # symmetric differance /a vs b  da qatnashmagan son
+
+print("result1:", result1)
+print("result2:", result2)
+print("result3:", result3)
+print("result4:", result4)
